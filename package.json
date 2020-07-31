@@ -1,0 +1,38 @@
+{
+  "name": "crossclip",
+  "version": "0.1.0",
+  "main": "lib/main.js",
+  "description": "Sync clipboard across platforms",
+  "build": {
+    "appId": "org.yue.crossclip",
+    "productName": "CrossClip",
+    "copyright": "Copyright © 2020 Cheng Zhao",
+    "unpack": "+(*.node|*.png)"
+  },
+  "scripts": {
+    "start": "yode .",
+    "build": "yackage build out",
+    "dist": "yackage dist out"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yue/crossclip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yue/crossclip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yue/crossclip/issues"
+  },
+  "dependencies": {
+    "bobolink": "3.0.0",
+    "fast-deep-equal": "3.1.3",
+    "fetch-yode": "1.x",
+    "fs-extra": "9.0.1",
+    "gui": "0.8.8",
+    "ip": "1.1.5",
+    "os-locale": "5.0.0"
+  },
+  "devDependencies": {
+    "yackage": "0.3.x"
+  }
+}

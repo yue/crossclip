@@ -1,0 +1,21 @@
+{
+  "port": "Port",
+  "portPrompt": "Please choose a port between 1024 ~ 65535, which will be used to send and receive clipboard notifications:",
+  "portNumberError": "Port must be an integer",
+  "channel": "Channel",
+  "channelPrompt": "Please enter an non-empty channel, only the computers that share the same channel will have their clipboard synchronized:",
+  "channelEmptyError": "Channel must no be empty",
+  "key": "Key",
+  "keyPrompt": "Please enter an non-empty key, which will be used to encrypt/decrypt the contents of clipboard:",
+  "keyEmptyError": "Key must not be empty",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "status": "Status",
+  "notStarted": "Not started",
+  "starting": "Starting",
+  "listening": "Listening on",
+  "closing": "Closing",
+  "settings": "Settings",
+  "edit": "Edit",
+  "quit": "Quit"
+}
