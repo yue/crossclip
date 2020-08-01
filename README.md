@@ -1,6 +1,6 @@
 # CrossClip
 
-Sync clipboard across macOS/Linux/Windows.
+Sync clipboard across macOS/Linux/Windows on LAN.
 
 Written in Node.js, with native UI powered by [the Yue library](https://github.com/yue/yue).
 
@@ -17,9 +17,9 @@ Written in Node.js, with native UI powered by [the Yue library](https://github.c
 
 * Only plain text are synchronized, there is currently no plan to implement file
   copy/paste.
-* The network part is implemented by broadcasting messages, so large text in
-  clipboard would fail to be sent. There is plan to rewrite the network code
-  with a proper P2P library to support sending large text.
+* The network part is implemented by broadcasting UDP messages on LAN, so large
+  text in clipboard could fail to be sent. There is plan to rewrite the network
+  code with a proper P2P library to support sending large text.
 
 ## Contributions
 
